@@ -5,7 +5,7 @@ using UnityEngine;
 public class moveScript : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
+    private float speed = 16f;
     private float jumpingPower = 35f;
     private bool isFacingRight = true;
 
@@ -28,6 +28,11 @@ public class moveScript : MonoBehaviour
         }
 
         Flip();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
     }
 
     private void FixedUpdate()
