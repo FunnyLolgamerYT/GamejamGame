@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 7.2000003
     y: 50.4
@@ -22,10 +23,19 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 0
     y: 43
     width: 1920
     height: 989
+=======
+    x: 7.2000003
+    y: 50.4
+    width: 1521.6
+    height: 766.4
+>>>>>>> Stashed changes
   m_ShowMode: 4
 <<<<<<< HEAD
   m_Title: Game
@@ -56,6 +66,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 1521.6
     height: 716.4
@@ -64,6 +75,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 79
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     width: 1920
     height: 939
   m_MinSize: {x: 300, y: 200}
@@ -71,10 +85,21 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
   controlID: 23
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
 =======
   controlID: 102
 >>>>>>> main
+=======
+=======
+    width: 1521.6
+    height: 716.4
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 19
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,6 +115,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 1161.6
     y: 0
@@ -98,6 +124,9 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 1471
     y: 0
     width: 449
@@ -105,11 +134,22 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
 =======
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> main
+=======
+=======
+    x: 1162.4
+    y: 0
+    width: 359.19995
+    height: 716.4
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -132,22 +172,35 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 288
     height: 424
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     width: 365
     height: 556
 <<<<<<< HEAD
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
 =======
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> main
+=======
+=======
+    width: 288
+    height: 424
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -169,6 +222,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     y: 424
     width: 1161.6
@@ -179,6 +233,17 @@ MonoBehaviour:
     height: 383
 <<<<<<< HEAD
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+    y: 556
+    width: 1471
+    height: 383
+=======
+    y: 424
+    width: 1162.4
+    height: 292.40002
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
@@ -212,6 +277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 1521.6
     height: 766.4
@@ -219,6 +285,15 @@ MonoBehaviour:
     width: 1920
     height: 989
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+    width: 1920
+    height: 989
+=======
+    width: 1521.6
+    height: 766.4
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -242,11 +317,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 1521.6
 =======
     width: 1920
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+    width: 1920
+=======
+    width: 1521.6
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -267,6 +350,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     y: 746.4
     width: 1521.6
@@ -274,6 +358,15 @@ MonoBehaviour:
     y: 969
     width: 1920
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+    y: 969
+    width: 1920
+=======
+    y: 746.4
+    width: 1521.6
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -296,6 +389,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 1161.6
     height: 716.4
@@ -304,10 +398,19 @@ MonoBehaviour:
   vertical: 1
   controlID: 63
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     width: 1471
     height: 939
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
+=======
+    width: 1162.4
+    height: 716.4
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+>>>>>>> Stashed changes
   vertical: 1
 <<<<<<< HEAD
   controlID: 24
@@ -334,6 +437,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     width: 1161.6
     height: 424
@@ -342,10 +446,19 @@ MonoBehaviour:
   vertical: 0
   controlID: 64
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     width: 1471
     height: 556
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
+=======
+    width: 1162.4
+    height: 424
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+>>>>>>> Stashed changes
   vertical: 0
 <<<<<<< HEAD
   controlID: 25
@@ -368,17 +481,30 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 288
     y: 0
     width: 873.6
     height: 424
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 365
     y: 0
     width: 1106
     height: 556
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    x: 288
+    y: 0
+    width: 874.4
+    height: 424
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -407,17 +533,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 7.2000003
     y: 504.80002
     width: 1160.6
     height: 271.40002
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 0
     y: 629
     width: 1470
     height: 362
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    x: 7.2000003
+    y: 504.80002
+    width: 1161.4
+    height: 271.40002
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -443,11 +582,20 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< refs/remotes/origin/main
   m_LastProjectPath: C:\Users\Didie\OneDrive\Documenten\github\GamejamGame
+=======
+<<<<<<< Updated upstream
+  m_LastProjectPath: C:\Users\yarno\OneDrive\Documenten\github\GamejamGame
+=======
+  m_LastProjectPath: C:\Users\diega\Documents\GitHub\GamejamGame
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 845f0000
@@ -463,6 +611,17 @@ MonoBehaviour:
     m_LastClickedID: 24502
     m_ExpandedIDs: 00000000b65f000000ca9a3bffffff7f
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+    m_SelectedIDs: ac5f0000
+    m_LastClickedID: 24492
+    m_ExpandedIDs: 00000000ac5f000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 92910000
+    m_LastClickedID: 37266
+    m_ExpandedIDs: 000000009291000000ca9a3b
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -584,17 +743,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 1168.8
     y: 80.8
     width: 359
     height: 695.4
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 1471
     y: 73
     width: 448
     height: 918
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    x: 1169.6
+    y: 80.8
+    width: 358.19995
+    height: 695.4
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -632,17 +804,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 7.2000003
     y: 80.8
     width: 287
     height: 403
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 0
     y: 73
     width: 364
     height: 535
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    x: 7.2000003
+    y: 80.8
+    width: 287
+    height: 403
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -653,6 +838,7 @@ MonoBehaviour:
 <<<<<<< HEAD
       m_SelectedIDs: 08080000
       m_LastClickedID: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
       m_ExpandedIDs: 1efbffff
 =======
@@ -663,6 +849,13 @@ MonoBehaviour:
       m_LastClickedID: 24434
       m_ExpandedIDs: 2cfbffff725f0000
 >>>>>>> main
+=======
+<<<<<<< Updated upstream
+      m_ExpandedIDs: 1efbffff765f0000
+=======
+      m_ExpandedIDs: c2c5ffff
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Ground Check
@@ -706,17 +899,30 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     x: 295.2
     y: 80.8
     width: 871.6
     height: 403
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     x: 365
     y: 73
     width: 1104
     height: 535
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    x: 295.2
+    y: 80.8
+    width: 872.4
+    height: 403
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1137,17 +1343,30 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< refs/remotes/origin/main
 <<<<<<< HEAD
     m_HBaseRangeMin: -612.8
     m_HBaseRangeMax: 612.8
     m_VBaseRangeMin: -307.6
     m_VBaseRangeMax: 307.6
 =======
+=======
+<<<<<<< Updated upstream
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     m_HBaseRangeMin: -552
     m_HBaseRangeMax: 552
     m_VBaseRangeMin: -257
     m_VBaseRangeMax: 257
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+    m_HBaseRangeMin: -612.8
+    m_HBaseRangeMax: 612.8
+    m_VBaseRangeMin: -307.6
+    m_VBaseRangeMax: 307.6
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1197,8 +1416,15 @@ MonoBehaviour:
       height: 514
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< Updated upstream
   m_LastWindowPixelSize: {x: 1104, y: 535}
+<<<<<<< refs/remotes/origin/main
 >>>>>>> main
+=======
+=======
+  m_LastWindowPixelSize: {x: 1915, y: 987.5}
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "Manaf" and "origin/main"
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
