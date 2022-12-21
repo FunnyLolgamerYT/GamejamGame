@@ -23,7 +23,7 @@ public class touchScript : MonoBehaviour
         if (collision.gameObject.tag == ("Player"))
         {
             Destroy(gameObject);
-            logic.addScore(1);
+            logic.addScore(1, gameObject.tag);
 
         }
     }

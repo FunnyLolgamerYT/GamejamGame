@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Items
+  - Snow
+  - Icicle
+  - IceGem
   layers:
   - Default
   - TransparentFX

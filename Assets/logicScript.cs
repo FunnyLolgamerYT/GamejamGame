@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = System.Random;
+
 
 
 public class logicScript : MonoBehaviour
 {
-    public int playerScore;
-    public Text scoreText;
+    private Random rnd = new Random();
+    public int Snow;
+    public int Icicle;
+    public int SnowGem;
+    public Text IcicleCounter;
+    public Text SnowGemCounter;
+    public Text SnowCounter;
     public GameObject Inventory;
     public GameObject Crafting;
     private bool InventoryOpen = false;
@@ -18,10 +25,27 @@ public class logicScript : MonoBehaviour
 
 
     [ContextMenu("Increase Score")]
-    public void addScore(int scoreToAdd)
+    public void addScore(int scoreToAdd, string Tag)
     {
-        playerScore = playerScore + scoreToAdd;
-        scoreText.text = playerScore.ToString();
+        if (Tag == "Snow")
+        {
+            
+            int snows = rnd.Next(1, 5);
+            Snow += snows;
+            SnowCounter.text = Snow.ToString();
+        }
+        else if (Tag == "Icicle")
+        {
+            Icicle += scoreToAdd;
+            IcicleCounter.text = Icicle.ToString();
+        }
+        else if (Tag == "IceGem")
+        {
+            SnowGem += scoreToAdd;
+            SnowGemCounter.text = SnowGem.ToString();
+        }
+
+
     }
 
     void Update()
