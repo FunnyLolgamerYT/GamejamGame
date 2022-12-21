@@ -9,7 +9,9 @@ public class logicScript : MonoBehaviour
     public int playerScore;
     public Text scoreText;
     public GameObject Inventory;
+    public GameObject Crafting;
     private bool InventoryOpen = false;
+    private bool CraftingOpen = false;
    
 
 
@@ -24,7 +26,7 @@ public class logicScript : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab))
+        if(Input.GetKeyDown(KeyCode.Tab) && !CraftingOpen )
         {
             if (InventoryOpen)
             {
@@ -35,6 +37,19 @@ public class logicScript : MonoBehaviour
             {
                 Inventory.SetActive(true);
                 InventoryOpen = true;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.E) && !InventoryOpen )
+        {
+            if (CraftingOpen)
+            {
+                Crafting.SetActive(false);
+                CraftingOpen = false;
+            }
+            else
+            {
+                Crafting.SetActive(true);
+                CraftingOpen = true;
             }
         }
     }
