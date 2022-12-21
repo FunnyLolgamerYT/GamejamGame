@@ -9,6 +9,7 @@ using Random = System.Random;
 public class logicScript : MonoBehaviour
 {
     private Random rnd = new Random();
+    public bool SnowDagger = false;
     public int Snow;
     public int Icicle;
     public int SnowGem;
@@ -17,14 +18,27 @@ public class logicScript : MonoBehaviour
     public Text SnowCounter;
     public GameObject Inventory;
     public GameObject Crafting;
+    public GameObject DaggerCheck;
+    public GameObject DaggerCross;
     private bool InventoryOpen = false;
     private bool CraftingOpen = false;
-   
 
 
-
+    
 
     [ContextMenu("Increase Score")]
+    public void CraftDagger()
+    {
+        
+        if (Snow >= 1 && Icicle >= 2 )
+        {
+            Debug.Log("You crafted a Dagger");
+            SnowDagger = true;
+            Snow -= 1;
+            Icicle -= 2;
+        }
+    }
+
     public void addScore(int scoreToAdd, string Tag)
     {
         if (Tag == "Snow")
@@ -32,17 +46,17 @@ public class logicScript : MonoBehaviour
             
             int snows = rnd.Next(1, 5);
             Snow += snows;
-            SnowCounter.text = Snow.ToString();
+            
         }
         else if (Tag == "Icicle")
         {
             Icicle += scoreToAdd;
-            IcicleCounter.text = Icicle.ToString();
+            
         }
         else if (Tag == "IceGem")
         {
             SnowGem += scoreToAdd;
-            SnowGemCounter.text = SnowGem.ToString();
+            
         }
 
 
@@ -50,6 +64,21 @@ public class logicScript : MonoBehaviour
 
     void Update()
     {
+        SnowCounter.text = Snow.ToString();
+        IcicleCounter.text = Icicle.ToString();
+        SnowGemCounter.text = SnowGem.ToString();
+
+        if (SnowDagger)
+        {
+            DaggerCheck.SetActive(true);
+            DaggerCross.SetActive(false);
+            
+        }
+        else if (!SnowDagger)
+        {
+            DaggerCheck.SetActive(false);
+            DaggerCross.SetActive(true);
+        }
         if(Input.GetKeyDown(KeyCode.Tab) && !CraftingOpen )
         {
             if (InventoryOpen)
