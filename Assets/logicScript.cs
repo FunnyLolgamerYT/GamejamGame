@@ -10,9 +10,11 @@ public class logicScript : MonoBehaviour
 {
     private Random rnd = new Random();
     public bool SnowDagger = false;
+    public int SnowBalls;
     public int Snow;
     public int Icicle;
     public int SnowGem;
+    public Text SnowBallCounter;
     public Text IcicleCounter;
     public Text SnowGemCounter;
     public Text SnowCounter;
@@ -38,13 +40,24 @@ public class logicScript : MonoBehaviour
             Icicle -= 2;
         }
     }
+    public void CraftSnowBall()
+    {
+
+        if (Snow >= 2 )
+        {
+            Debug.Log("You crafted some snowballs");
+            SnowBalls += 5;
+            Snow -= 2;
+            
+        }
+    }
 
     public void addScore(int scoreToAdd, string Tag)
     {
         if (Tag == "Snow")
         {
             
-            int snows = rnd.Next(1, 5);
+            int snows = rnd.Next(2, 5);
             Snow += snows;
             
         }
